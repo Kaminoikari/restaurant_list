@@ -1,7 +1,6 @@
 "use strict";
 const express = require("express");
 const exphbs = require("express-handlebars");
-const bodyParser = require("body-parser");
 const restaurantList = require("./restaurant.json");
 const app = express();
 const port = 3000;
@@ -9,8 +8,6 @@ const port = 3000;
 // express template engine
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 // setting static files
 app.use(express.static("public"));
