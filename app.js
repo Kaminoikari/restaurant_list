@@ -38,7 +38,7 @@ app.get("/search", (req, res) => {
       restaurant.name.toLowerCase().includes(req.query.keyword.toLowerCase()) ||
       restaurant.category.includes(req.query.keyword)
   );
-  res.render("index", { restaurants: restaurants, keyword: req.query.keyword });
+  res.render("index", { restaurants, keyword: req.query.keyword });
 });
 
 app.listen(port, () => {
