@@ -1,19 +1,19 @@
-# Introduction
+## Introduction
 
 A simple restaurant list web application. Users can search a list of restaurants by the name or the catagory of the restaurant.
 
-# Screenshot
+## Screenshot
 
 ![FB17C7AC-FBF3-47B2-8C7B-AE35F3FC74A0_1_105_c](https://user-images.githubusercontent.com/55652178/155599850-a6752066-6978-4b96-b713-67f7bcc80f0a.jpeg)
 
 
-# Features
+## Features
 * List of restaurants with brief introduction.
 * Showing detailed information of restaurants.
 * Links to help users find out the location via google map.
 * Enter keyword to search restaurants by the name and category.
 
-# Installation
+## Installation
 ### 1. Ensure you have already installed node.js and npm on your device
 ### 2. Open terminal and clone the files to your local server
 ```
@@ -36,7 +36,7 @@ http://localhost:3000
 
 ### 6. Use ```Cmd(⌘)+C``` in the terminal if you wish to terminate the project
 
-# Requirement
+## Requirement
 * Node.js v16.14.0
 * Express 4.16.4
 * Express-Handlebars 3.0.0
